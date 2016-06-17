@@ -1,7 +1,7 @@
 {
     "id": "/riemann-haproxy-app",
 
-    "cmd": "riemann-haproxy -s http://$HOST:9999/",
+    "cmd": "riemann-haproxy -h $HOST -s http://$HOST:9999/",
 
     "cpus": 0.1,
     "mem": 64.0,
