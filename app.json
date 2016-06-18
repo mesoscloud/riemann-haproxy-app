@@ -13,5 +13,14 @@
 
             "network": "BRIDGE"
         }
-    }
+    },
+
+    "constraints": [
+        [
+            "hostname", "UNIQUE"
+        ]
+    ],
+
+    "instances": 3
+
 }
